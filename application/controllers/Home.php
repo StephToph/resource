@@ -13,7 +13,7 @@ class Home extends CI_Controller {
 		
 		$log_id = $this->session->userdata('nsmx_id');
 
-		$data['title'] =  app_name;
+		$data['title'] =  'Home-page - '.app_name;
 		$data['page_active'] = 'home';
 
 		$this->load->view('designs/header', $data);
