@@ -16,8 +16,8 @@
 			<div class="et_pb_text_inner">
                 <p>
                     For more information contact us today:<br />
-                    <strong>877-703-8010</strong><br />
-                    <a href="mailto:info@resourcingedge.com">info@resourcingedge.com</a>
+                    <strong>561-227-8537</strong><br />
+                    <a href="mailto:info@gesxsurrogate.com">info@gesxsurrogate.com</a>
                 </p>
                 <p>
                     Copyright © <?=date('Y'); ?> <?=app_name; ?><br />
@@ -100,7 +100,7 @@
                     </li>   
 
                 </ul>
-                <img src="<?=base_url(); ?>assets/resedge.wpenginepowered.com/wp-content/uploads/2022/04/REONCompanyWHITE.svg" class="aligncenter footer_logo" /><p class="footer_connect">Connect with us!</p>
+                <img src="<?=base_url(); ?>assets/images/logo1.png" class="aligncenter footer_logo" /><p class="footer_connect">Connect with us!</p>
             </div>	<!-- .container -->
         </div>
     </footer> <!-- #main-footer -->
