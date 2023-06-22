@@ -229,8 +229,8 @@
 				
 				
 				<div class="et_pb_map" data-center-lat="32.9138779" data-center-lng="-96.4608749" data-zoom="16" data-mouse-wheel="on" data-mobile-dragging="on"></div>
-				<div class="et_pb_map_pin" data-initial="open" data-lat="32.9138779" data-lng="-96.46087490000002" data-title="Resourcing Edge">
-				<h3 style="margin-top:10px">Resourcing Edge</h3>
+				<div class="et_pb_map_pin" data-initial="open" data-lat="32.9138779" data-lng="-96.46087490000002" data-title="<?=app_name; ?>">
+				<h3 style="margin-top:10px"><?=app_name; ?></h3>
 				<div class="infowindow"></div>
 			</div>
 			</div><div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
@@ -246,8 +246,8 @@
 				
 				
 				<div class="et_pb_map" data-center-lat="34.0398685" data-center-lng="-84.3313131" data-zoom="18" data-mouse-wheel="on" data-mobile-dragging="on"></div>
-				<div class="et_pb_map_pin" data-initial="open" data-lat="34.0398685" data-lng="-84.3313131" data-title="Resourcing Edge">
-				<h3 style="margin-top:10px">Resourcing Edge</h3>
+				<div class="et_pb_map_pin" data-initial="open" data-lat="34.0398685" data-lng="-84.3313131" data-title="<?=app_name; ?>">
+				<h3 style="margin-top:10px"><?=app_name; ?></h3>
 				<div class="infowindow"></div>
 			</div>
 			</div><div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
@@ -263,8 +263,8 @@
 				
 				
 				<div class="et_pb_map" data-center-lat="40.1470574" data-center-lng="-82.9488954" data-zoom="18" data-mouse-wheel="on" data-mobile-dragging="on"></div>
-				<div class="et_pb_map_pin" data-initial="open" data-lat="40.1390609" data-lng="-82.9692258" data-title="Resourcing Edge">
-				<h3 style="margin-top:10px">Resourcing Edge</h3>
+				<div class="et_pb_map_pin" data-initial="open" data-lat="40.1390609" data-lng="-82.9692258" data-title="<?=app_name; ?>">
+				<h3 style="margin-top:10px"><?=app_name; ?></h3>
 				<div class="infowindow"></div>
 			</div>
 			</div><div class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_left et_pb_bg_layout_light">

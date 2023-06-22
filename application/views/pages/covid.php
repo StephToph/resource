@@ -59,7 +59,7 @@
 				<div class="et_pb_module et_pb_text et_pb_text_0 the_tagline  et_pb_text_align_center et_pb_bg_layout_light">
 				
 				
-				<div class="et_pb_text_inner"><p style="text-align: center;">The Latest from Resourcing Edge</p></div>
+				<div class="et_pb_text_inner"><p style="text-align: center;">The Latest from <?=app_name; ?></p></div>
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column -->
 				
@@ -105,12 +105,12 @@
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/telecommuting_checklist-REI.docx" rel="attachment wp-att-1008">Telecommuting Checklist</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/sample_telecommuting_agreement-REI.doc" rel="attachment wp-att-1007">Sample Telecommuting Agreement</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Return-to-Work-ChecklistR2.pdf">Return-to-Work Checklist</a></li>
-<li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Resourcing-Edge-Deciding-who-to-recall-from-furlogh-or-layoff.pdf" rel="attachment wp-att-1005">Resourcing Edge &#8211; Deciding who to recall from Furlough or Layoff</a></li>
+<li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Resourcing-Edge-Deciding-who-to-recall-from-furlogh-or-layoff.pdf" rel="attachment wp-att-1005"><?=app_name; ?> &#8211; Deciding who to recall from Furlough or Layoff</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Recall_from_Furlough_-_Revised_Offer_Letter-REI.docx" rel="attachment wp-att-1004">Recall from Furlough &#8211; Offer Letter</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/COVID-Personal-Leave-of-Absence-Granted-Letter-REI.docx" rel="attachment wp-att-1002">COVID Personal Leave of Absence Granted Letter</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Employee-Notice-Face-Coverings-REI.docx" rel="attachment wp-att-1003">Employee Notice &#8211; Face Coverings</a></li>
 <li><a href="https://www.uschamber.com/sites/default/files/uschamber_reopen_guide.pdf" target="_blank" rel="noopener noreferrer">US Chamber of Commerce &#8211; Ready to Reopen Playbook</a></li>
-<li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Resourcing-Edge-What-If-Guide-Return-to-Work-Edits.pdf" target="_blank" rel="noopener noreferrer">Resourcing Edge &#8220;What If Guide&#8221; &#8211; Return to Work</a></li>
+<li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Resourcing-Edge-What-If-Guide-Return-to-Work-Edits.pdf" target="_blank" rel="noopener noreferrer"><?=app_name; ?> &#8220;What If Guide&#8221; &#8211; Return to Work</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/acknowledgment_of_receipt_for_company_issued_property-REI.docx" rel="attachment wp-att-1001">Acknowledgment of Receipt for Company Issued Property</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/EAP-Flyer_Resourcing-Edge2.pdf" target="_blank" rel="noopener noreferrer">Employee Assistance Program</a></li>
 </ul>
@@ -163,7 +163,7 @@
 <h2>Updates</h2>
 <div>
 <p><strong>May 11, 2020</strong></p>
-<p>Resourcing Edge knows the health and safety of your employees is a top priority. We understand states are relaxing the restrictions on the stay at home orders, and employers are considering the return of employees to their physical work locations. Resourcing Edge is here to help you navigate this process. We have developed a return to work guide to help with this transition. Included, you will find sample policies and informational documents, linked below.</p>
+<p><?=app_name; ?> knows the health and safety of your employees is a top priority. We understand states are relaxing the restrictions on the stay at home orders, and employers are considering the return of employees to their physical work locations. <?=app_name; ?> is here to help you navigate this process. We have developed a return to work guide to help with this transition. Included, you will find sample policies and informational documents, linked below.</p>
 <ul>
 <li><a href="../hr-services/tips-on-returning-remote-workers-to-office-based-work/index.html" target="_blank" rel="noopener noreferrer">Return to Work Guide</a></li>
 <li><a href="https://www.dol.gov/sites/dolgov/files/WHD/posters/FFCRA_Poster_WH1422_Non-Federal.pdf" target="_blank" rel="noopener noreferrer">FCCRA Poster</a></li>
@@ -175,7 +175,7 @@
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/telecommuting_checklist-REI.docx" rel="attachment wp-att-1008">Telecommuting Checklist</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/sample_telecommuting_agreement-REI.doc" rel="attachment wp-att-1007">Sample Telecommuting Agreement</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Return-to-Work-ChecklistR2.pdf" rel="attachment wp-att-1006">Return-to-Work Checklist</a></li>
-<li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Resourcing-Edge-Deciding-who-to-recall-from-furlogh-or-layoff.pdf" rel="attachment wp-att-1005">Resourcing Edge &#8211; Deciding who to recall from Furlough or Layoff</a></li>
+<li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Resourcing-Edge-Deciding-who-to-recall-from-furlogh-or-layoff.pdf" rel="attachment wp-att-1005"><?=app_name; ?> &#8211; Deciding who to recall from Furlough or Layoff</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Recall_from_Furlough_-_Revised_Offer_Letter-REI.docx" rel="attachment wp-att-1004">Recall from Furlough &#8211; Offer Letter</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/COVID-Personal-Leave-of-Absence-Granted-Letter-REI.docx" rel="attachment wp-att-1002">COVID Personal Leave of Absence Granted Letter</a></li>
 <li><a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/05/Employee-Notice-Face-Coverings-REI.docx" rel="attachment wp-att-1003">Employee Notice &#8211; Face Coverings</a></li>
@@ -231,7 +231,7 @@
 <div> </div>
 </div>
 <div>
-<p>The President recently signed the Coronavirus Aid, Relief, and Economic Security Act (CARES Act). The Act addresses multiple ways for employers impacted by COVID-19 to seek federal support. Resourcing Edge believes it is important to note the services we provide to clients do not interfere with a client’s ability to qualify for a CARES Act loan, including the Paycheck Protection Program. We continue to be here for our clients to support you through this pandemic. To view the information, we have compiled about the Act, please review the helpful links above. We will continue to keep you informed on the Act through our resource center as more information is expected to come soon.</p>
+<p>The President recently signed the Coronavirus Aid, Relief, and Economic Security Act (CARES Act). The Act addresses multiple ways for employers impacted by COVID-19 to seek federal support. <?=app_name; ?> believes it is important to note the services we provide to clients do not interfere with a client’s ability to qualify for a CARES Act loan, including the Paycheck Protection Program. We continue to be here for our clients to support you through this pandemic. To view the information, we have compiled about the Act, please review the helpful links above. We will continue to keep you informed on the Act through our resource center as more information is expected to come soon.</p>
 <p>We ask that you contact your Client Account Manager to discuss any further questions you may have.</p>
 </div>
 <div>
@@ -254,7 +254,7 @@
 <div><strong>March 25, 2020</strong></div>
 </div>
 <p>&nbsp;</p>
-<p>The Department of Labor (DOL) just issued new rules regarding the Families First Coronavirus Response Act (the Act). Among these rules, Resourcing Edge has a few updates to share with you now.</p>
+<p>The Department of Labor (DOL) just issued new rules regarding the Families First Coronavirus Response Act (the Act). Among these rules, <?=app_name; ?> has a few updates to share with you now.</p>
 <ul>
 <li>The Act will now be effective April 1, 2020</li>
 <li>Employers must post a notice of the Act in highly visible place on its premises. For employers on shelter or telework, the posting requirements can be satisfied by sending the notice in an email or placing the notice on an internal website. Click <a href="https://files.constantcontact.com/585470b8001/e2ffa44d-6e43-41a2-a664-3dfddb36164e.pdf"><em>here</em></a> to download.</li>
@@ -271,7 +271,7 @@
 <div><strong>March 24, 2020</strong></div>
 <div> </div>
 <div>
-<p>President Trump has signed the Families First Coronavirus Response Act (The Act), enabling provisions for employees affected by COVID-19. Resourcing Edge is here to support you in these unfamiliar times. Please see our highlights of The Act, <a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/03/COVID-19-FFAR5.pdf"><em>here</em></a>.</p>
+<p>President Trump has signed the Families First Coronavirus Response Act (The Act), enabling provisions for employees affected by COVID-19. <?=app_name; ?> is here to support you in these unfamiliar times. Please see our highlights of The Act, <a href="https://resedge.wpenginepowered.com/wp-content/uploads/2020/03/COVID-19-FFAR5.pdf"><em>here</em></a>.</p>
 <p>The Act goes into effect April 1, 2020 <em>(amended 3/24/2020)</em> and ceases December 31, 2020. Rest assured, we are taking the necessary steps to administer The Act during this trying time. We will continue to monitor the situation and provide updates as they become available.</p>
 <p>We ask that you please contact your Client Account Manager with any questions you may have at this time.</p>
 </div>
@@ -281,15 +281,15 @@
 <div> </div>
 <div><strong>March 13, 2020</strong></div>
 <div> </div>
-<div>As concerns over the COVID-19 virus deepen, Resourcing Edge is dedicated to the safety of our clients and employees. Understanding the potential impact of the virus to your business, we are here to assist you in navigating the policy and process questions you may have.</div>
+<div>As concerns over the COVID-19 virus deepen, <?=app_name; ?> is dedicated to the safety of our clients and employees. Understanding the potential impact of the virus to your business, we are here to assist you in navigating the policy and process questions you may have.</div>
 <div> </div>
 <div>To best serve you, we have enhanced our continuity and contingency plans designed for safety during this outbreak:</div>
 <ul>
-<li>Remote Workforce: Resourcing Edge is prepared to support a remote workforce internally, to ensure the safety of our team. Resourcing Edge staff have been provided with the necessary infrastructure to provide uninterrupted service to our clients.</li>
-<li>Secure Client Data: Resourcing Edge hosts our client platform on redundant data servers, ensuring our team has easy access to our software wherever they may be.</li>
-<li>Remote Payroll Processing: Resourcing Edge understands how crucial timely and accurate payroll is for our clients and their employees. You can rest assured knowing we are prepared with payroll processing continuity plans in place. In the event COVID-19 has an impact on distribution channels, employees receiving paper checks may be at risk of delayed payments. We suggest utilizing our technology options to receive paychecks electronically via direct deposit or <a href="https://files.constantcontact.com/585470b8001/6c87217c-3f10-4267-b7e3-751f27d47227.pdf" target="_blank" rel="noopener noreferrer">pay card</a>. If you or your employees are not receiving an electronic check and wish to do so, please contact your payroll administrator.</li>
+<li>Remote Workforce: <?=app_name; ?> is prepared to support a remote workforce internally, to ensure the safety of our team. <?=app_name; ?> staff have been provided with the necessary infrastructure to provide uninterrupted service to our clients.</li>
+<li>Secure Client Data: <?=app_name; ?> hosts our client platform on redundant data servers, ensuring our team has easy access to our software wherever they may be.</li>
+<li>Remote Payroll Processing: <?=app_name; ?> understands how crucial timely and accurate payroll is for our clients and their employees. You can rest assured knowing we are prepared with payroll processing continuity plans in place. In the event COVID-19 has an impact on distribution channels, employees receiving paper checks may be at risk of delayed payments. We suggest utilizing our technology options to receive paychecks electronically via direct deposit or <a href="https://files.constantcontact.com/585470b8001/6c87217c-3f10-4267-b7e3-751f27d47227.pdf" target="_blank" rel="noopener noreferrer">pay card</a>. If you or your employees are not receiving an electronic check and wish to do so, please contact your payroll administrator.</li>
 </ul>
-<div>Additionally , Resourcing Edge’s master medical partner, UnitedHealthcare, will cover the costs of any COVID-19 tests for its members at approved locations in accordance with CDC guidelines. For up to date information on approved CDC testing locations and other virus facts, please <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" target="_blank" rel="noopener noreferrer">click here</a>.</div>
+<div>Additionally , <?=app_name; ?>’s master medical partner, UnitedHealthcare, will cover the costs of any COVID-19 tests for its members at approved locations in accordance with CDC guidelines. For up to date information on approved CDC testing locations and other virus facts, please <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" target="_blank" rel="noopener noreferrer">click here</a>.</div>
 <div> </div>
 <div>We will continue to assess the situation as directed by the CDC and provide updates when necessary. We ask that you reach out to your Client Account Manager with any questions or concerns.</div>
 <div> </div>
