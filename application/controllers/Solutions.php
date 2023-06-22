@@ -14,7 +14,7 @@ class Solutions extends CI_Controller {
 		$log_id = $this->session->userdata('nsmx_id');
 
 		$data['title'] =  'Our Partner Program - '.app_name;
-		$data['page_active'] = 'partners';
+		$data['page_active'] = 'partner';
 
 		$this->load->view('designs/header', $data);
 		$this->load->view('pages/partners', $data);
