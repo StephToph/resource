@@ -93,13 +93,13 @@
 				    <div id="et-top-navigation" data-height="70" data-fixed-height="70">
 						<nav id="top-menu-nav">
 						    <ul id="top-menu" class="nav">
-                                <li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-356">
+                                <li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-356">
                                     <a href="<?=base_url('solutions'); ?>">Solutions</a>
                                     <ul class="sub-menu">
-                                        <li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235">
-                                            <a href="<?=base_url('solutions/peo'); ?>">PEO Services</a>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-172  menu-item-235">
+                                          <a href="<?=base_url('solutions/peo'); ?>">PEO Services</a>
                                         </li>
-                                        <li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233">
+                                        <li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-183 current_page_item menu-item-233">
                                             <a href="<?=base_url('solutions/industries'); ?>">Industries</a>
                                         </li>
                                         <li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234">
