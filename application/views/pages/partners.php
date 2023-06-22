@@ -65,7 +65,7 @@
 				<div class="et_pb_module et_pb_text et_pb_text_0 the_tagline  et_pb_text_align_left et_pb_bg_layout_light">
 				
 				
-				<div class="et_pb_text_inner"><p style="text-align: center;">Enhance your core offer by partnering with Resourcing Edge.</p></div>
+				<div class="et_pb_text_inner"><p style="text-align: center;">Enhance your core offer by partnering with <?=app_name; ?>.</p></div>
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column -->
 				
@@ -93,25 +93,25 @@
 				<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_center et_pb_bg_layout_light">
 				
 				
-				<div class="et_pb_text_inner"><h3 style="text-align: center;">By partnering with Resourcing Edge, you’ll gain access to a wide variety of products, services and expertise that will give you a competitive advantage in your marketplace.</h3></div>
+				<div class="et_pb_text_inner"><h3 style="text-align: center;">By partnering with <?=app_name; ?>, you’ll gain access to a wide variety of products, services and expertise that will give you a competitive advantage in your marketplace.</h3></div>
 			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
 				
 				
-				<div class="et_pb_text_inner"><p><strong>Typical companies partnering with Resourcing Edge.</strong></p>
+				<div class="et_pb_text_inner"><p><strong>Typical companies partnering with <?=app_name; ?>.</strong></p>
 <ul>
 <li>Insurance broker agencies</li>
 <li>PEO broker agencies</li>
 <li>Professional service associations</li>
 <li>Membership associations</li>
 </ul>
-<p><strong><br />The benefits of partnering with Resourcing Edge.</p>
+<p><strong><br />The benefits of partnering with <?=app_name; ?>.</p>
 <p></strong></p>
 <ul>
 <li>Generate a new revenue stream for your firm</li>
 <li>Provide customized offerings to your clients</li>
-<li>Private label the services that Resourcing Edge provides</li>
+<li>Private label the services that <?=app_name; ?> provides</li>
 <li>Offer a competitive solution to what other PEOs, ASOs, and payroll companies are offering</li>
-<li>Integrate your company’s products and services along with Resourcing Edge’s offering to retain your current revenue streams.</li>
+<li>Integrate your company’s products and services along with <?=app_name; ?>’s offering to retain your current revenue streams.</li>
 </ul></div>
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column -->

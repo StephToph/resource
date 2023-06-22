@@ -90,11 +90,11 @@
 				<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
 				
 				
-				<div class="et_pb_text_inner"><h3>Through our PEO Services, Resourcing Edge provides a long-term strategy to control costs, reduce risks, and better manage payroll, human resources, employee benefits, and workers’ compensation insurance.</h3>
+				<div class="et_pb_text_inner"><h3>Through our PEO Services, <?=app_name; ?> provides a long-term strategy to control costs, reduce risks, and better manage payroll, human resources, employee benefits, and workers’ compensation insurance.</h3>
 <h3>What makes us unique:</h3>
 <p><strong>Customized Solutions</strong> – Solutions customized to the unique needs of your company.<br /><strong>Advanced Technology</strong> – Cutting-edge tools to enhance your capabilities and improve efficiency.<br /><strong>Specialists in Every Department</strong> – To provide valuable information and guidance.<br /><strong>Effective Implementation</strong> – To fully understand the needs and objectives of your company and ensure a smooth and timely transition.<br /><strong>Single Point of Contact</strong> – Your Personal Account Manager becomes your single point of contact offering you exceptional support and quick responses.</p>
-<h3>With Resourcing Edge, You Have a Single Point of Contact to All of Our Services</h3>
-<p>From the beginning of your relationship with Resourcing Edge, you will have a staff of professionals to help you with all your human capital needs.</p></div>
+<h3>With <?=app_name; ?>, You Have a Single Point of Contact to All of Our Services</h3>
+<p>From the beginning of your relationship with <?=app_name; ?>, you will have a staff of professionals to help you with all your human capital needs.</p></div>
 			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
 				
 				

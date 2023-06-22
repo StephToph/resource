@@ -92,8 +92,8 @@
 				<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
 				
 				
-				<div class="et_pb_text_inner"><h3>Resourcing Edge offers direct-hire recruiting services in all major markets throughout the US. We have the experience, connections, and drive needed to do more than fill empty seats.</h3>
-<p>It all starts with listening and listening well. Many permanent placement firms can find qualified candidates. We take it a step further.  Resourcing Edge Recruiting excels at finding professionals with the right resume for the job <em>and</em> the emotional intelligence to match the role. We strive for cultural fit as well as professional competency.</p>
+				<div class="et_pb_text_inner"><h3><?=app_name; ?> offers direct-hire recruiting services in all major markets throughout the US. We have the experience, connections, and drive needed to do more than fill empty seats.</h3>
+<p>It all starts with listening and listening well. Many permanent placement firms can find qualified candidates. We take it a step further.  <?=app_name; ?> Recruiting excels at finding professionals with the right resume for the job <em>and</em> the emotional intelligence to match the role. We strive for cultural fit as well as professional competency.</p>
 <p><strong><em>Our Proven Process – Hands Off for You; Hands On for Us.</em></strong></p>
 <p>How do we do it? We visit with you, soak up your culture, and use our depth of experience to ask better questions. The result? A targeted recruitment process that ends with a top-quality hire.</p>
 <p>Our proven process gets buy-in from everyone involved. We focus on finding talent your competitors would love to have and present you with fully-vetted candidates. Our process ensures long-term success for your new hire.</p></div>
@@ -425,7 +425,7 @@
 				
 				
 				<div class="et_pb_text_inner"><p>For more information contact us today:<br /><strong>877-703-8010</strong><br /><a href="mailto:info@resourcingedge.com">info@resourcingedge.com</a></p>
-<p>Copyright © 2020 Resourcing Edge<br /><span style="color: #ff3a3a;"><a style="color: #ff3a3a;" href="../../privacy-policy/index.html">Privacy Policy</a></span></p></div>
+<p>Copyright © 2020 <?=app_name; ?><br /><span style="color: #ff3a3a;"><a style="color: #ff3a3a;" href="../../privacy-policy/index.html">Privacy Policy</a></span></p></div>
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_5 et_pb_column_18  et_pb_css_mix_blend_mode_passthrough">
 				
