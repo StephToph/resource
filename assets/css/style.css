@@ -91,3 +91,27 @@ body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_l
         max-width:42%;
     }
 }
+
+.et_pb_row_0 {
+    background-color: #416ba9;
+  }
+
+  .et_pb_row_0, body #page-container .et-db #et-boc .et-l .et_pb_row_0.et_pb_row, body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_0.et_pb_row, body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_0.et_pb_row {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .et_pb_row_0.et_pb_row {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .et_pb_row_2 {
+    background-color: #f5f5f5;
+  }
