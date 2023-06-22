@@ -93,36 +93,36 @@
 				    <div id="et-top-navigation" data-height="70" data-fixed-height="70">
 						<nav id="top-menu-nav">
 						    <ul id="top-menu" class="nav">
-                                <li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-356">
+                                <li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page  <?php if($page_active == 'industries' || $page_active == 'partner' || $page_active == 'recruiting' || $page_active == 'peo') {echo 'current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor';}?> menu-item-has-children menu-item-356">
                                     <a href="<?=base_url('solutions'); ?>">Solutions</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-172  menu-item-235">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-172  menu-item-235 <?php if($page_active == 'peo') {echo 'current_page_item current-menu-item';}?> ">
                                           <a href="<?=base_url('solutions/peo'); ?>">PEO Services</a>
                                         </li>
-                                        <li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-183 current_page_item menu-item-233">
+                                        <li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-183 <?php if($page_active == 'industries') {echo 'current_page_item current-menu-item';}?>  menu-item-233">
                                             <a href="<?=base_url('solutions/industries'); ?>">Industries</a>
                                         </li>
-                                        <li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234">
+                                        <li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234 <?php if($page_active == 'partner') {echo 'current_page_item current-menu-item';}?> ">
                                             <a href="<?=base_url('solutions/partner'); ?>">Partner Program</a>
                                         </li>
-                                        <li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236">
+                                        <li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236 <?php if($page_active == 'recruiting') {echo 'current_page_item current-menu-item';}?> ">
                                             <a href="<?=base_url('solutions/recruiting'); ?>">Recruiting</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li id="menu-item-890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-890">
+                                <li id="menu-item-890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-890 <?php if($page_active == 'covid') {echo 'current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor';}?>">
                                     <a href="<?=base_url('covid'); ?>">COVID-19 Resource Center</a>
                                 </li>
-                                <li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244">
+                                <li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244 <?php if($page_active == 'industry') {echo 'current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor';}?>">
                                     <a href="<?=base_url('industry'); ?>">Industry News &#038; Information</a>
                                 </li>
-                                <li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-237">
+                                <li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-237 <?php if($page_active == 'about' || $page_active == 'accreditation') {echo 'current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor';}?>">
                                     <a href="<?=base_url('about'); ?>">About</a>
                                     <ul class="sub-menu">
-                                        <li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239">
+                                        <li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239  <?php if($page_active == 'about') {echo 'current_page_item current-menu-item';}?>  ">
                                             <a href="<?=base_url('about'); ?>">About Us</a>
                                         </li>
-                                        <li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232">
+                                        <li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232  <?php if($page_active == 'accreditation') {echo 'current_page_item current-menu-item';}?>  ">
                                             <a href="<?=base_url('accreditation'); ?>">Our Accreditations</a>
                                         </li>
                                     </ul>
