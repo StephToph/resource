@@ -3,10 +3,10 @@
 		<div class="et_pb_module et_pb_text et_pb_text_29  et_pb_text_align_left et_pb_bg_layout_light">
 			<div class="et_pb_text_inner">
                 <p>
-                    <a href="solutions/professional-employer-peo-services/index.html">Solutions</a><br />
-                    <span style="color: #f5f5f5;">Industry News &amp; Information</span><br />
-                    <a href="about-us/index.html">About</a><br />
-                    <a href="contact-us/index.html">Contact Us</a>
+                    <a href="<?=site_url('solutions/peo'); ?>">Solutions</a><br />
+                    <a href="<?=site_url('industry'); ?>">Industry News &amp; Information</a><br />
+                    <a href="<?=site_url('about'); ?>">About</a><br />
+                    <a href="<?=site_url('contact'); ?>">Contact Us</a>
                 </p>
             </div>
 		</div> <!-- .et_pb_text -->
@@ -22,7 +22,7 @@
                 <p>
                     Copyright © <?=date('Y'); ?> <?=app_name; ?><br />
                     <span style="color: #ff3a3a;">
-                        <a style="color: #ff3a3a;" href="privacy-policy/index.html">Privacy Policy</a>
+                        <a style="color: #ff3a3a;" href="javascript:;">Privacy Policy</a>
                     </span>
                 </p>
             </div>
@@ -32,9 +32,9 @@
 		<div class="et_pb_module et_pb_text et_pb_text_31  et_pb_text_align_left et_pb_bg_layout_light">
 			<div class="et_pb_text_inner">
                 <p>
-                    <a href="re360-for-managers/index.html">re360 Manager Login</a><br />
-                    <a href="re360-for-employees/index.html">re360 Employee Login</a><br />
-                    <a href="../rei.clientspace.net/Next/Login3871.html?ReturnUrl=%2fnext" target="_blank" rel="noopener noreferrer">re360 Case Request</a>
+                    <a href="javascript:;">re360 Manager Login</a><br />
+                    <a href="javascript:;">re360 Employee Login</a><br />
+                    <a href="javascript:;">re360 Case Request</a>
                 </p>
             </div>
 		</div> <!-- .et_pb_text -->
@@ -44,12 +44,12 @@
 			<div class="et_pb_text_inner">
                 <p>
                     <strong>Texas Locations:</strong><br />
-                    <a href="contact-us/index.html">Rockwall</a><br />
-                    <a href="contact-us/index.html">Fort Worth</a><br />
-                    <a href="contact-us/index.html">Dallas</a><br />
-                    <a href="contact-us/index.html">Houston</a><br />
-                    <a href="contact-us/index.html">Beaumont</a><br />
-                    <a href="contact-us/index.html">San Antonio</a>
+                    <a href="<?=site_url('contact'); ?>">Rockwall</a><br />
+                    <a href="<?=site_url('contact'); ?>">Fort Worth</a><br />
+                    <a href="<?=site_url('contact'); ?>">Dallas</a><br />
+                    <a href="<?=site_url('contact'); ?>">Houston</a><br />
+                    <a href="<?=site_url('contact'); ?>">Beaumont</a><br />
+                    <a href="<?=site_url('contact'); ?>">San Antonio</a>
                 </p>
             </div>
 		</div> <!-- .et_pb_text -->
@@ -59,13 +59,13 @@
 			<div class="et_pb_text_inner">
                 <p>
                     <strong>Other Locations:</strong><br />
-                    <a href="contact-us/index.html">Atlanta, GA</a><br />
-                    <a href="contact-us/index.html">Columbus, OH</a><br />
-                    <a href="contact-us/index.html">Trenton, NJ</a><br />
-                    <a href="contact-us/index.html">Denver, CO</a><br />
-                    <a href="contact-us/index.html">Chicago, Il</a><br />
-                    <a href="contact-us/index.html">Boston, MA</a><br />
-                    <a href="contact-us/index.html">Tucson, AZ</a>
+                    <a href="<?=site_url('contact'); ?>">Atlanta, GA</a><br />
+                    <a href="<?=site_url('contact'); ?>">Columbus, OH</a><br />
+                    <a href="<?=site_url('contact'); ?>">Trenton, NJ</a><br />
+                    <a href="<?=site_url('contact'); ?>">Denver, CO</a><br />
+                    <a href="<?=site_url('contact'); ?>">Chicago, Il</a><br />
+                    <a href="<?=site_url('contact'); ?>">Boston, MA</a><br />
+                    <a href="<?=site_url('contact'); ?>">Tucson, AZ</a>
                 </p>
             </div>
 		</div> <!-- .et_pb_text -->
@@ -84,17 +84,17 @@
 			<div class="container clearfix">
 				<ul class="et-social-icons">
                     <li class="et-social-icon et-social-facebook">
-                        <a href="../www.facebook.com/ResourcingEdge/index.html" class="icon">
+                        <a href="jacascript:;" class="icon">
                             <span>Facebook</span>
                         </a>
                     </li>
                     <li class="et-social-icon et-social-linkedin">
-                        <a href="../www.linkedin.com/company/resourcing-edge/index.html" class="icon">
+                        <a href="jacascript:;" class="icon">
                             <span>LinkedIn</span>
                         </a>
                     </li>
                     <li class="et-social-icon et-social-twitter">
-                        <a href="https://twitter.com/ResourcingEdge" class="icon">
+                        <a href="jacascript:;" class="icon">
                             <span>Twitter</span>
                         </a>
                     </li>   
