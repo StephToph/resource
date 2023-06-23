@@ -237,7 +237,7 @@
 				
 				
 				<div class="et_pb_text_inner"><h3>Rockwall, Texas</h3>
-<p><strong>Corporate Offices</strong><br />1309 Ridge Road<br />Suite 200<br />Rockwall, Texas 75087<br /><strong>Tel:</strong> 214.771.4411<br /><strong>Fax:</strong> 214.771.4420</p></div>
+<p><strong>Corporate Offices</strong><br />1309 Ridge Road<br />Suite 200<br />Rockwall, Texas 75087 </p></div>
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough">
 				
@@ -254,7 +254,7 @@
 				
 				
 				<div class="et_pb_text_inner"><h3>Alpharetta, Georgia</h3>
-<p>30 Mansell Court<br />Suite 105<br />Alpharetta, Georgia 30076<br /><strong>Sales:</strong> 678.456.4531<br /><strong>Service:</strong> 470.208.6045</p></div>
+<p>30 Mansell Court<br />Suite 105<br />Alpharetta, Georgia 30076</p></div>
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
 				
@@ -271,7 +271,7 @@
 				
 				
 				<div class="et_pb_text_inner"><h3>Columbus, Ohio</h3>
-<p class="x_MsoNormal">570 Polaris Pkwy<br />Suite 125<br />Westerville, OH  43082<br /><strong>Tel:</strong> 614.436.5880</p></div>
+<p class="x_MsoNormal">570 Polaris Pkwy<br />Suite 125<br />Westerville, OH  43082</p></div>
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column -->
 				

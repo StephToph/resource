@@ -51,7 +51,7 @@
 				    <div id="et-secondary-menu">
 				        <ul id="et-secondary-nav" class="menu">
                             <li class="menu_phone menu-item menu-item-type-custom menu-item-object-custom menu-item-96">
-                                <a href="tel:4696511027">FOR SALES CALL: 561-227-8537</a>
+                                <a href="tel:5612278537">FOR SALES CALL: 561-227-8537</a>
                             </li>
                         </ul>
                         <div style="float: right; ">
@@ -60,7 +60,7 @@
                                     <a href="javascript:;">LOGIN</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-329">
-                                            <a href="re360-for-managers/index.html">re360 Manager Login</a>
+                                            <a href="javascript:;">re360 Manager Login</a>
                                         </li>
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-330">
                                             <a href="javascript:;">re360 Employee Login</a>
