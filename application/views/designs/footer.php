@@ -117,7 +117,18 @@
         <div class="et_social_pin_images" data-permalink="https://resourcingedge.com/" data-title="Home Page" data-post_id="2"></div>
     </div>
 </div>	
+<script>
+    var myVar;
 
+    function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("page-container").style.display = "block";
+    }
+    </script>
 <script type="text/javascript">
     var et_link_options_data = [{"class":"et_pb_text_28","url":"\/resources\/","target":"_self"}];
 </script>
