@@ -43,9 +43,13 @@
         <link rel="apple-touch-icon"href="<?=base_url(); ?>assets/images/fav.png" />
     </head>
     <!-- End of Head -->
-
-    <body class="home page-template-default page page-id-2 dbdb_divi_2_4_up desktop et_monarch et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_secondary_nav_enabled et_secondary_nav_only_menu et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_svg_logo et_pb_footer_columns4 et_cover_background et_pb_gutter osx et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css">
-	    <div id="page-container">
+    
+    <body class="home page-template-default page page-id-2 dbdb_divi_2_4_up desktop et_monarch et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_secondary_nav_enabled et_secondary_nav_only_menu et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_svg_logo et_pb_footer_columns4 et_cover_background et_pb_gutter osx et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css" onload="myFunction()" style="margin-top:10px;">
+        <div class="preloader" id="loader">
+            <div class="loader"></div>
+        </div>
+        
+	    <div id="page-container" style="display:none;" class="animate-bottom">
 			<div id="top-header">
     			<div class="container clearfix">			
 				    <div id="et-secondary-menu">
