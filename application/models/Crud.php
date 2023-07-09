@@ -907,42 +907,7 @@ class Crud extends CI_Model {
 
 		return $result;
 	}
-	public function api($method='get', $endpoint, $param) {
-		$curl = curl_init();
-
-		$link = site_url('api/').$endpoint;
-		
-		if($method == 'get') {
-			if(!empty($param)) $link .= '?'.$param;
-		}
-
-		$key = getenv('api_key');
-		
-		$chead = array();
-		$chead[] = 'Content-Type: application/json';
-		$chead[] = 'Authorization: Bearer '.$key;
-
-		curl_setopt($curl, CURLOPT_URL, $link);
-		curl_setopt($curl, CURLOPT_HEADER, 0);
-		curl_setopt($curl, CURLOPT_HTTPHEADER, $chead);
-		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-		if($method == 'post') {
-			curl_setopt($curl, CURLOPT_POST, 1);
-			curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($param));
-		}
-		if($method == 'delete') {
-			curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "DELETE");
-			curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($param));
-		}
-		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
-
-		$result = curl_exec($curl);
-		curl_close($curl);
-
-		return $result;
-
-	}
-
+	
 	public function bible($endpoint='') {
 		// create a new cURL resource
 		$curl = curl_init();
