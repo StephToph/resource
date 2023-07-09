@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bulk Message Sender</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulk Message Sender</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    /* CSS styles for media responsiveness */
+    @media only screen and (max-width: 600px) {
+      body {
       background-color: #f2f2f2;
     }
     .container {
@@ -15,8 +18,7 @@
       background-color: #fff;
       border-radius: 5px;
       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
+    }h1 {
       font-size: 24px;
       margin-top: 0;
     }
@@ -32,12 +34,14 @@
     .error {
       background-color: #f8d7da;
       color: #721c24;
-    }
+    }}
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1 class="mb-4">Bulk Message Sender</h1>
+  <div class="container-fluid">
+    <h1 class="mb-4 py-3 text-center">Bulk Message Sender</h1>
+    <div class="row bg-light py-3">
+    <div class="col-md-12">
     <form id="messageForm">
       <div class="mb-3">
         <label for="recipients" class="form-label">Recipients (separated by commas):</label>
@@ -49,11 +53,15 @@
         <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
       </div>
 
-      <div class="d-grid">
-      <button type="submit" class="btn btn-primary btn-block">Send Messages</button></div>
-    </form>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Send Messages</button>
+      </div>
+    </form></div>
+    </div>
     <div id="statusContainer"></div>
   </div>
+
+
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
