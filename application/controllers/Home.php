@@ -105,6 +105,7 @@ class Home extends CI_Controller {
 
 		$data['title'] =  'Our Accreditations - '.app_name;
 		$data['page_active'] = 'accreditation';
+		$data['page_active'] = 'accreditation';
 
 		$this->load->view('designs/header', $data);
 		$this->load->view('pages/accreditation', $data);
