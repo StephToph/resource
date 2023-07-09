@@ -30,10 +30,8 @@ class Xender extends CI_Controller {
 
 			// Remove whitespace from each number
 			$recipientNumbers = array_map('trim', $recipientNumbers);
-
-			$key = 'KEY01870E567C71F5BBE3CD7E0605A8C414_h7uNYdQYcHavcQJSCYajpf';
-			
-			
+			$a = 1;$b =1;$c=1;
+			$count = count($recipientNumbers);
 			foreach ($recipientNumbers as $recipient) {
 			
 				$url = "https://api.telnyx.com/v2/messages";
@@ -45,7 +43,7 @@ class Xender extends CI_Controller {
 
 				$headers = array(
 				"Content-Type: application/json",
-				"Authorization: Bearer KEY01870E567C71F5BBE3CD7E0605A8C414_h7uNYdQYcHavcQJSCYajpf",
+				"Authorization: Bearer ".app_key,
 				);
 				curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
@@ -64,9 +62,23 @@ class Xender extends CI_Controller {
 				curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 
 				$resp = curl_exec($curl);
-				curl_close($curl);
-				var_dump($resp);
+				$httpCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 
+				// Handle the API response
+				if ($httpCode === 200) {
+					if($c == $count){
+						echo 'Message Sent Successfully to '.$a.' Recipient';
+					}
+					$a++;
+				} else {
+					if($c == $count){
+						echo 'Message Failed to send to '.$b.' Recipient';
+					}
+					$b++;
+				}
+				curl_close($curl);
+				// var_dump($resp);
+				$c++;
 			}
 		}
 
