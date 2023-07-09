@@ -54,7 +54,7 @@ class Xender extends CI_Controller {
 					"text": "$message"
 				}
 				DATA;
-				echo json_encode($datas).'<br>';
+				
 				curl_setopt($curl, CURLOPT_POSTFIELDS, $datas);
 
 				//for debug only!
@@ -80,6 +80,7 @@ class Xender extends CI_Controller {
 				// var_dump($resp);
 				$c++;
 			}
+			die;
 		}
 
 
