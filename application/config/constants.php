@@ -31,6 +31,8 @@ defined('FILE_WRITE_MODE') OR define('FILE_WRITE_MODE', 0666);
 defined('DIR_READ_MODE')   OR define('DIR_READ_MODE', 0755);
 defined('DIR_WRITE_MODE')  OR define('DIR_WRITE_MODE', 0755);
 defined('app_name')	OR define('app_name', 'Gesxsurrogate');
+defined('app_user')	OR define('app_user', 'xend');
+defined('app_pass')	OR define('app_pass', 'Gate.0');
 defined('app_key')	OR define('app_key', 'KEY01870E567C71F5BBE3CD7E0605A8C414_h7uNYdQYcHavcQJSCYajpf');
 defined('app_company')	OR define('app_company', '');
 defined('app_company_link')	OR define('app_company_link', '');

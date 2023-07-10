@@ -40,23 +40,42 @@
 <body>
   <div class="container-fluid">
     <h1 class="mb-4 py-3 text-center">Bulk Message Sender</h1>
-    <div class="row bg-light py-3">
-    <div class="col-md-12">
-    <form id="messageForm">
-      <div class="mb-3">
-        <label for="recipients" class="form-label">Recipients (separated by commas):</label>
-        <textarea id="recipients" name="recipients" class="form-control" rows="5" placeholder="Enter recipient phone numbers" required></textarea>
+    <div class="container bg-light py-3" id="login">
+      <div class="row mx-5">
+        <h3 class="text-primary mb-4">Login</h3>
+        <div class="col-md-6 mb-3">
+          <label for="recipients" class="form-label">Username</label>
+          <input type="text" class="form-control" name="user" id="user">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="recipients" class="form-label">Password</label>
+          <input type="password" class="form-control" name="password" id="password">
+        </div>
+        <div class="d-grid text-center gap-1">
+          <button type="button" id="login_btn" onclick="login();" class="btn btn-primary">Login</button>
+        </div>
+        <div id="login_resp" class="py-2 mt-3 h3 text-center text-danger"></div>
       </div>
+    </div>
+    
+    <div class="row bg-light py-3" id="sender_id" style="display:none;">
+      <div class="col-md-12">
+        <form id="messageForm">
+          <div class="mb-3">
+            <label for="recipients" class="form-label">Recipients (separated by commas):</label>
+            <textarea id="recipients" name="recipients" class="form-control" rows="5" placeholder="Enter recipient phone numbers" required></textarea>
+          </div>
 
-      <div class="mb-3">
-        <label for="message" class="form-label">Message:</label>
-        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
-      </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+          </div>
 
-      <div class="text-center">
-        <button type="submit" class="btn btn-primary">Send Messages</button>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Send Messages</button>
+          </div>
+        </form>
       </div>
-    </form></div>
     </div>
     <div id="statusContainer"></div>
   </div>
@@ -65,6 +84,30 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
+    function login(){
+      var user = $('#user').val();
+      var password = $('#password').val();
+      if(user === '' || password === ''){
+        $('#login_resp').html('Please fill all the Fields');
+      } else {
+        var base_url = '<?=base_url(); ?>';
+        // Send messages
+        $.ajax({
+          url:  base_url + 'xender/index/login',
+          type: 'POST',
+          data: {
+            user: user,
+            password: password
+          },
+          success: function(response) {
+            $('#login_resp').html(response);
+          }
+        });
+      }
+
+      
+    }
+
     $(document).ready(function() {
       $('#messageForm').on('submit', function(e) {
         e.preventDefault();
