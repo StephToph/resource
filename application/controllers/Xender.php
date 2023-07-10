@@ -83,6 +83,19 @@ class Xender extends CI_Controller {
 			die;
 		}
 
+		if($param1 == 'login'){
+			$user = $this->input->post('user');
+			$password = $this->input->post('password');
+			
+			if(app_user == $user && app_pass == $password){
+				echo 'Login Successful';
+				echo '<script>$("#login").hide(3000);$("#sender_id").show(500);</script>';
+			} else {
+				echo 'Login Failed';
+			}
+			die;
+		}
+
 
 		$data['title'] =  'Xender - '.app_name;
 		
