@@ -31,8 +31,10 @@ class Xender extends CI_Controller {
 
 			// Remove whitespace from each number
 			$recipientNumbers = array_map('trim', $recipientNumbers);
-			$a = 1;$b =1;$c=1;
+			$a = 0;$b =0;$c=1;
+
 			$count = count($recipientNumbers);
+			echo 'Sending Message to '.$count.' Recipients.  ';
 			foreach ($recipientNumbers as $recipient) {
 			
 				$url = "https://api.telnyx.com/v2/messages";
@@ -66,21 +68,17 @@ class Xender extends CI_Controller {
 				$httpCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 
 				// Handle the API response
-				if ($httpCode === 200) {
-					if($c == $count){
-						echo 'Message Sent Successfully to '.$a.' Recipient';
-					}
-					$a++;
-				} else {
-					if($c == $count){
-						echo 'Message Failed to send to '.$b.' Recipient';
-					}
-					$b++;
+				if ($httpCode === 200) {$a++;
+					
+				} else {$b++;
+					
 				}
 				curl_close($curl);
 				// var_dump($resp);
 				$c++;
-			}
+
+				
+			}echo 'Message Sent Successfully to '.$a.' Recipient and Failed to send to '.$b.' Recipient';
 			die;
 		}
 
