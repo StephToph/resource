@@ -84,6 +84,13 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
+    <?php
+      if(!empty($sess_id)){?>
+        $('#login').hide();
+        $('#sender_id').show(500);
+        
+      <?php }
+    ?>
     function login(){
       var user = $('#user').val();
       var password = $('#password').val();
