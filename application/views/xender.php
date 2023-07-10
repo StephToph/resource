@@ -77,7 +77,7 @@
         </form>
       </div>
     </div>
-    <div id="statusContainer"></div>
+    <div id="statusContainer" class="text-center py-3 h4"></div>
   </div>
 
 
@@ -118,7 +118,7 @@
     $(document).ready(function() {
       $('#messageForm').on('submit', function(e) {
         e.preventDefault();
-
+        $('#statusContainer').html('<div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>');
         var recipients = $('#recipients').val();
         var message = $('#message').val();
 
@@ -138,9 +138,6 @@
             recipients: recipientNumbers,
             message: message
           },
-          beforeSend: function() {
-            $('#statusContainer').empty();
-          },
           success: function(response) {
             displayMessageStatus(response, 'success');
             $('#recipients').val('');
@@ -155,7 +152,7 @@
       function displayMessageStatus(message, status) {
         var statusClass = (status === 'success') ? 'success' : 'error';
         var statusDiv = $('<div>').addClass('message-status alert alert-' + statusClass).text(message);
-        $('#statusContainer').append(statusDiv);
+        $('#statusContainer').html(statusDiv);
       }
     });
   </script>
