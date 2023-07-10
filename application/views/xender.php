@@ -77,7 +77,7 @@
         </form>
       </div>
     </div>
-    <div id="statusContainer" class="text-center py-3"></div>
+    <div id="statusContainer" class="text-center py-3 h4"></div>
   </div>
 
 
